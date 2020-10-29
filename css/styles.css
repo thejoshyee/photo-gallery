@@ -3,19 +3,16 @@
 }
 
 body {
-    width: auto;
-    display: grid;
-    justify-content: center;
+    max-width: 960px;
+    margin: auto;
 }
 
-
 .gallery {
-    margin-top: 25px;
-    max-width: 1000px;
     display: grid;
-    grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(3, 200px);
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+    grid-gap: 15px;
+    justify-content: center;
+
 }
 
 input {
@@ -25,5 +22,9 @@ input {
 
 .wrapper {
     text-align: center;
+    margin-bottom: 25px;
 }
 
+img {
+display: block;    
+}
