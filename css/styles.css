@@ -18,6 +18,7 @@ body {
 input {
     width: 55%;
     padding: 7px 10px;
+    border-radius: 50px;
 }
 
 .wrapper {
