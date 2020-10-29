@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    display: grid;
+    justify-content: center;
+}
+
+
+.gallery {
+    margin-top: 25px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 20px;
+}
+
+input {
+    width: 55%;
+    padding: 7px 10px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
