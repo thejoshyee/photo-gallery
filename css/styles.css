@@ -5,6 +5,7 @@
 body {
     max-width: 960px;
     margin: auto;
+    font-family: 'Gothic A1', sans-serif;
 }
 
 .gallery {
@@ -29,4 +30,15 @@ input {
 
 img {
 display: block;    
+}
+
+.thumbnail {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
 }
